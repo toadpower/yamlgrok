@@ -1,0 +1,11 @@
+bravomq01:
+  environment<->: bravo
+
+bravomq02:
+  environment<->: bravo
+
+prodmq01:
+  environment<->: production
+
+prodmq02:
+  environment->: production

@@ -1,0 +1,20 @@
+breakfast:
+  time: 6am
+  food/fruit->: banana
+
+lunch:
+  time: 11am
+  food/fruit->:
+    - banana
+    - apple
+    - grape
+
+tea:
+  time: 2pm
+  food/fruit<->: pear
+
+dinner:
+  time: 6pm
+  food/fruit<->: pear
+
+

@@ -1,0 +1,14 @@
+alpha01:
+  environment<->: alpha
+
+alpha02:
+  environment<->: alpha
+
+alpha03:
+  environment<->: alpha
+
+proddb01:
+  environment<->: production
+
+proddb02:
+  environment<->: production

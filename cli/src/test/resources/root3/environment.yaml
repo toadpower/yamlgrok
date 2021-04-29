@@ -1,0 +1,20 @@
+alpha:
+  server/db<->:
+    - alpha01
+    - alpha02
+    - alpha03
+
+bravo:
+  server/mq->:
+    - bravomq01
+    - bravomq02
+    - alpha01
+
+production:
+  server/db<->:
+    - proddb01
+    - proddb02
+  server/mq<->:
+    - prodmq01
+    - prodmq02
+  server/ui<->: produi01
